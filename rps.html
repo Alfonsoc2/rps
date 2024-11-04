@@ -3,11 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <title>Rock Paper Scissors</title>
 </head>
 <body>
-  <script src="rpsjava.js"></script>
+  <h1> Rock, Paper, Scissors !</h1>
+  <div class="scoreboard">
+    <div id="player-score">Player: 0</div>
+    <div id="computer-score">Computer: 0</div>
+</div>
+<div id="result-message">Make a choice to start the game!</div>
+<section class="rps-controls">
+  <button class="RPSbutton" data-choice="rock">Rock</button>
+  <button class="RPSbutton" data-choice="paper">Paper</button>
+  <button class="RPSbutton" data-choice="scissors">Scissors</button>
+  <button class="resetB">Reset</button>
+</section>
 
-  
+<script src="rpsjava.js"></script>
 </body>
 </html>
